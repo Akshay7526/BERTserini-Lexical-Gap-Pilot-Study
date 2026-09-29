@@ -1,0 +1,50 @@
+{
+  "bm25": {
+    "method": "BM25 (lexical)",
+    "overall": {
+      "n": 48,
+      "recall@1": 0.979,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr": 0.99
+    },
+    "matched": {
+      "n": 24,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr": 1.0
+    },
+    "paraphrased": {
+      "n": 24,
+      "recall@1": 0.958,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr": 0.979
+    }
+  },
+  "lsa": {
+    "method": "TF-IDF+LSA (semantic proxy)",
+    "overall": {
+      "n": 48,
+      "recall@1": 0.958,
+      "recall@3": 0.979,
+      "recall@5": 1.0,
+      "mrr": 0.974
+    },
+    "matched": {
+      "n": 24,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr": 1.0
+    },
+    "paraphrased": {
+      "n": 24,
+      "recall@1": 0.917,
+      "recall@3": 0.958,
+      "recall@5": 1.0,
+      "mrr": 0.948
+    }
+  }
+}
